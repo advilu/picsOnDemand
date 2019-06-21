@@ -11,7 +11,7 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="ui segment">
+            <div className="ui segment" style={{ backgroundColor: 'grey' }}>
                 <form onSubmit={this.onFormSubmit} className="ui icon input focus">
                     <div className="field">
                         <label>Search for images:</label>
